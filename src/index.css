@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th{
+  cursor: pointer;
+}
+.table{
+  border: 2px solid black;
+  width: 90%;
+}
+
+
+
+.check{
+  height: 20px;
+  width: 20px;
+}
+
+.modal{
+  display: block;
+  /* border: 2px solid black; */
+  margin: 10px;
+  
+  padding: 10px;
+  height: 200px;
+
+  
+  
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.logo img{
+  height: 50px;
+  margin-top: 2px;
+  /* border: 2px solid blue; */
+}
+.logo{
+  background-color: #912CF6;
+}
+
+.content,.searchForm,.modal{
+  margin: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: #9B82EC;
+  align-items: center;
+  padding: 25px;
+}
+
+.updatebuttons{
+  display: flex;
+  justify-content: center;
+}
+
+.content_1 label,.searchForm label,.box label{
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.content_1 input,button,.searchForm input,.box input{
+  margin: 5px;
+  width: 300px;
+  height: 25px;
+}
+
+.btn1,.btns,.updatebtn{
+  letter-spacing: 5px;
+  padding: 8px;
+  height: 30px;
+  background-color: #912CF6;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.btns,.updatebtn{
+  padding: 9px;
+  color: white;
+  border: none;
+  width: 150px;
+  border-radius: 9px;
+}
+
+.searchForm{
+  border: 2px solid black;
+  padding: 20px;
+}

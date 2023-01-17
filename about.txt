@@ -1,0 +1,10 @@
+This is a basic todo list or task saving list , build using react js there is no backend of this project.
+Functions:
+  Add task
+  Delete task
+  Update task
+  Task table can be sorted in 2 ways using ID coloumn and Task coloumn in both Ascending and Descending order 
+  Search function
+  
+For easy deployment use render website => https://dashboard.render.com/ 
+

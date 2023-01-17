@@ -149,7 +149,7 @@ function App() {
 
       <div className='content' >
       <form onSubmit={handleForm} className='content_1' >
-        <label style={{margin:'10px',fontFamily:'cursive'}} >ENTER TASK</label> <br/>
+        <label style={{margin:'10px'}} >ENTER TASK</label> <br/>
         <input value={task} onChange={handleChange} type='search'  /> <br/>
         <button type='submit' className='btn1' onClick={onSubmit} >SUBMIT</button>
       </form>
